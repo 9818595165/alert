@@ -22,11 +22,8 @@ struct ContentView: View {
                          DatePicker(selection:$currentDate, in:...Date().addingTimeInterval(-24*60*60) ,displayedComponents:.date){
                          }
                          .frame(width: 160, alignment: .center)
-                         .foregroundColor(Color(hex: "000000"))
                          .labelsHidden()
-                         .colorMultiply(Color(hex: "194CB2"))
                          .padding(4)
-                         .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color(hex: "707070"), lineWidth: 1))
                     
                      }
                  }
