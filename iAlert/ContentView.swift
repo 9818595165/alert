@@ -26,7 +26,6 @@ struct ContentView: View {
                          .labelsHidden()
                          .colorMultiply(Color(hex: "194CB2"))
                          .padding(4)
-                         .font(HelveticaNeueFont.fontWithName(name: .regular, size: HelveticaNeueFont.Size.bold))
                          .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color(hex: "707070"), lineWidth: 1))
                     
                      }
